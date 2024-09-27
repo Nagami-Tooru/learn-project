@@ -10,6 +10,11 @@ namespace learn_project
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("world");
+            Console.WriteLine("tooru");
+            Console.WriteLine("18");
+            Console.WriteLine("sushi");
+            Console.ReadLine();
         }
     }
 }
