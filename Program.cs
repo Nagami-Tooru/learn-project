@@ -10,10 +10,19 @@ namespace learn_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("world");
-            Console.WriteLine("tooru");
-            Console.WriteLine("18");
-            Console.WriteLine("sushi");
+            int a;
+                Console.WriteLine("Nhap a:");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Gia tri tu 0 den a:");
+            for (int i = 0; i <= a; i++)
+            { 
+                Console.WriteLine(i);
+            }
+            Console.WriteLine($"Gia tri tu a den 0:");
+            for (int i = a;i >= 0; i--)
+            {
+                Console.WriteLine(i);
+            }
             Console.ReadLine();
         }
     }
